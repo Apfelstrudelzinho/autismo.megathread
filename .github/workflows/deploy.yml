@@ -46,7 +46,7 @@ jobs:
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          path: docs/.vitepress/dist # Verifique o diretório de saída do seu build
+          path: .vitepress/dist # Verifique o diretório de saída do seu build
 
   # Trabalho de implantação
   deploy:
