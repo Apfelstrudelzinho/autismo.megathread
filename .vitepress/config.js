@@ -5,6 +5,7 @@ export default defineConfig({
   title: "Megathread Neurodivergente", // <-- Seu título
   description: "Bem-vindo à Megathread para Neurodivergentes", // <-- Sua descrição
   base: '/autismo.megathread/', // <-- CRUCIAL: Este é o caminho base para o GitHub Pages
+  srcDir: 'docs', // <--- LINHA ADICIONADA: Diz ao VitePress para procurar o conteúdo em 'docs/'
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     nav: [
