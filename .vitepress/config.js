@@ -3,7 +3,7 @@ import { defineConfig } from 'vitepress'
 export default defineConfig({
   title: "Megathread Neurodivergente",
   description: "Bem-vindo à Megathread para Neurodivergentes",
-  base: '/', 
+  base: '/',
   srcDir: 'docs',
   themeConfig: {
     nav: [
@@ -15,7 +15,7 @@ export default defineConfig({
       {
         text: 'Guia',
         items: [
-          { text: 'Exemplos de Markdown', link: '/markdown-examples' },
+          { text: 'Explorar', link: '/menu' }, // Este é o que você queria
           { text: 'Exemplos de API', link: '/api-examples' }
         ]
       }
