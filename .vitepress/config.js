@@ -1,30 +1,28 @@
 import { defineConfig } from 'vitepress'
 
-// https://vitepress.dev/reference/site-config
 export default defineConfig({
-  title: "Megathread Neurodivergente", // <-- Seu título
-  description: "Bem-vindo à Megathread para Neurodivergentes", // <-- Sua descrição
-  base: '/autismo.megathread/', // <-- CRUCIAL: Este é o caminho base para o GitHub Pages
-  srcDir: 'docs', // <--- LINHA ADICIONADA: Diz ao VitePress para procurar o conteúdo em 'docs/'
+  title: "Megathread Neurodivergente",
+  description: "Bem-vindo à Megathread para Neurodivergentes",
+  base: '/', 
+  srcDir: 'docs',
   themeConfig: {
-    // https://vitepress.dev/reference/default-theme-config
     nav: [
       { text: 'Home', link: '/' },
-      { text: 'Exemplos', link: '/markdown-examples' } // <-- Ajuste se os nomes dos seus arquivos mudaram
+      { text: 'Exemplos', link: '/markdown-examples' }
     ],
 
     sidebar: [
       {
         text: 'Guia',
         items: [
-          { text: 'Exemplos de Markdown', link: '/markdown-examples' }, // <-- Ajuste se os nomes dos seus arquivos mudaram
-          { text: 'Exemplos de API', link: '/api-examples' } // <-- Ajuste se os nomes dos seus arquivos mudaram
+          { text: 'Exemplos de Markdown', link: '/markdown-examples' },
+          { text: 'Exemplos de API', link: '/api-examples' }
         ]
       }
     ],
 
     socialLinks: [
-      { icon: 'github', link: 'https://github.com/Apfelstrudelzinho/autismo.megathread' } // <-- Seu link do GitHub
+      { icon: 'github', link: 'https://github.com/Apfelstrudelzinho/autismo.megathread' }
     ],
 
     footer: {
