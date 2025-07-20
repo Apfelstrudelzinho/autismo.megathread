@@ -7,8 +7,9 @@ export default defineConfig({
   srcDir: '.',
   themeConfig: {
     nav: [
-      { text: 'Home', link: '/' },
-      { text: 'Exemplos', link: '/markdown-examples' }
+      { text: 'Guias', link: '' },
+      { text: 'CIPTEA', link: '' },
+      { text: 'Sobre', link: ''}
     ],
 
 // ...
