@@ -3,21 +3,22 @@ import { defineConfig } from 'vitepress'
 export default defineConfig({
   title: "Megathread Neurodivergente",
   description: "Bem-vindo à Megathread para Neurodivergentes",
-  base: '/', // CORRETO para autismo.space ou neurodivergente.space
-  srcDir: '.', // MUITO IMPORTANTE: Mude para '.' (ponto)
-               // porque .vitepress está DENTRO da pasta docs/ e o conteúdo está junto
+  base: '/',
+  srcDir: '.', // <--- MUITO IMPORTANTE: DEVE SER '.' (ponto)
+               //      porque seus arquivos .md estão na raiz do projeto
+               //      e .vitepress também está na raiz
   themeConfig: {
     nav: [
       { text: 'Home', link: '/' },
-      { text: 'Exemplos', link: '/markdown-examples' }
+      { text: 'Exemplos', link: '/markdown-examples' } // Se você ainda tiver o markdown-examples.md
     ],
 
     sidebar: [
       {
         text: 'Guia',
         items: [
-          { text: 'Explorar', link: '/menu' },
-          { text: 'Exemplos de API', link: '/api-examples' }
+          { text: 'Explorar', link: '/inicio' }, // Ajustado para /inicio
+          { text: 'Exemplos de API', link: '/api-examples' } // Se você ainda tiver o api-examples.md
         ]
       }
     ],
