@@ -16,11 +16,18 @@ hero:
       link: https://github.com/Apfelstrudelzinho/autismo.megathread
 
 features:
-  - title: Feature A
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - title: Feature B
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - title: Feature C
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
+  - icon: ⭐
+    title: Salve esta Megathread
+    details: Esteja sempre a um clique do seu guia completo sobre neurodiversidade. Marque esta página como favorito para um acesso rápido e fácil.
+
+  - icon: ⚠️
+    title: Atenção e Checagem de Informações
+    details: Na internet, informações sobre neurodiversidade podem variar muito. Mesmo em fontes confiáveis, o conteúdo pode ser atualizado. Sempre verifique e pesquise por si mesmo.
+
+  - icon: #
+    src: /reddit-logo.svg
+    title: Comunidade no Reddit
+    details: O Reddit oferece diversos subreddits onde você pode encontrar discussões, apoio e compartilhar experiências com outras pessoas neurodivergentes.
+    link: "https://www.reddit.com/r/autismobrasil/"
 ---
 
