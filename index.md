@@ -10,7 +10,7 @@ hero:
   actions:
     - theme: brand
       text: Explorar
-      link: /menu
+      link: /inicio
     - theme: alt
       text: Contribuir
       link: https://github.com/Apfelstrudelzinho/autismo.megathread
